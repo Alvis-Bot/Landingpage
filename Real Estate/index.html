@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Manrope:wght@400;700;800&family=Roboto&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="build/tailwind.css" />
+  <title>Real Estate Landingpage</title>
+</head>
+
+<body>
+  <!--
+    npm init -y
+    npm i -D tailwindcss postcss autoprefixer vite
+    npx tailwindcss init -p
+    npx tailwindcss -i ./css/tailwind.css -o ./build/tailwind.css --watch
+    npm run dev
+    -->
+  <div class= " max-w-[1440px] mx-auto">
+    <header class="pt-[34px] relative">
+      <div class="bg-[#BDCCFF] w-[35%] h-full absolute right-0 top-0 z-0 hidden lg:block"></div>
+      <div class="relative z-10 layout-container">
+      <!--  Menu -->
+        <div class="hidden lg:flex items-center justify-between mb-[50px] lg:mb-[117px]">
+          <a href="index.html" class="font-extrabold text-[23px]">SmartSpace</a>
+          <ul class="flex items-center gap-x-[46px] font-dm text-[13px]">
+            <li><a href="#" class="text-black border-0 border-b-2 border-black">Home</a></li>
+            <li><a href="#" class="text-black">About</a></li>
+            <li><a href="#" class="text-black">Service</a></li>
+            <li><a href="#" class="text-black">Portfolio</a></li>
+            <li><a href="#" class="text-black">Blog</a></li>
+            <li><a href="#" class="text-black">Contact</a></li>
+          </ul>
+        </div>
+        <div class="relative flex flex-col gap-y-10 lg:block">
+          <div class="relative z-10">
+            <h3 class="font-dm uppercase mb-6 font-bold md:text-[14px] lg:text-[22px] text-orangeff">
+              RESIDENTIAL & OFFICE SPACES
+            </h3>
+            <h1 class="font-extrabold text-[20px] lg:text-[54px] lg:max-w-[484px] mb-6">
+              Smart Living Style for Smart People
+            </h1>
+            <p class="lg:text-[17px] text-xs text-gray31 lg:max-w-[500px] mb-12">
+              Much did had call new drew that kept. Limits expect wonder law
+              she. Now has you views woman noisy match money rooms.
+            </p>
+            <div class="flex flex-col lg:flex-row w-full lg:max-w-[756px] bg-white shadow-properties mb-[10px] lg:mb-[154px]">
+              <div class="flex  items-center flex-1 p-5 border border-r-0 gap-x-5 border-grayda">
+                <img src="./images/icon-home.svg" alt="" />
+                <input type="text" class="flex-1 text-sm lg:text-xl font-normal text-gray31"
+                  placeholder="Enter Zipcode to search properties" />
+              </div>
+              <button class="lg:px-[42px] px-4 py-4 lg:py-8 leading-none text-white bg-orangef8 text-sm lg:text-[17px] font-bold">
+                Search Now!
+              </button>
+            </div>
+            <p class="text-[17px] text-gray31 mb-7">Our Amazing Partners</p>
+            <div class="lg:flex   items-center lg:gap-x-[50px] sm:gap-x-[20px]">
+              <img src="./images/buzz.png" alt="" />
+              <img src="./images/chase.png" alt="" />
+              <img src="./images/microsoft.png" alt="" />
+              <img src="./images/gucc.png" alt="" />
+              <img src="./images/airbnb.png" alt="" />
+              <img src="./imagesuber.png" alt="" />
+            </div>
+          </div>
+          <div class="lg:top-0 lg:right-0 lg:absolute relative ">
+            <img src="./images/header-image.png" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="mt-[223px]">
+      <section class="mb-[225px]">
+        <div class="layout-container">
+          <h2 class="font-semibold text-[40px] text-center mb-[70px]">
+            How it works?
+          </h2>
+          <div class="grid  grid-cols-work">
+            <div class="flex flex-col items-center justify-center">
+              <div
+                class="w-[90px] h-[90px] flex justify-center items-center rounded-[20px] bg-[#9672FF] shadow-purple mb-[50px]">
+                <img src="./images/icon-search.svg" alt="" />
+              </div>
+              <h3 class="font-semibold text-[22px] mb-[15px]">
+                Research Suburbs
+              </h3>
+              <p class="text-center font-roboto text-gray33">
+                Wonder twenty hunted and put income set desire expect. Am
+                cottage calling.
+              </p>
+            </div>
+            <img src="./images/icon-line.svg" alt="" />
+            <div class="flex flex-col items-center justify-center">
+              <div
+                class="w-[90px] h-[90px] flex justify-center items-center rounded-[20px] bg-[#4DDFFD] shadow-blue mb-[50px]">
+                <img src="./images/icon-hand.svg" alt="" />
+              </div>
+              <h3 class="font-semibold text-[22px] mb-[15px]">
+                Instant Valuation
+              </h3>
+              <p class="text-center font-roboto text-gray33">
+                Conveying or northward offending admitting perfectly my.
+                Colonel gravit and moonlight.
+              </p>
+            </div>
+            <img src="./images/icon-line2.svg" alt="" />
+            <div class="flex flex-col items-center justify-center">
+              <div
+                class="w-[90px] h-[90px] flex justify-center items-center rounded-[20px] bg-[#F2B8EC] shadow-pink mb-[50px]">
+                <img src="./images/icon-building.svg" alt="" />
+              </div>
+              <h3 class="font-semibold text-[22px] mb-[15px]">
+                Track Property
+              </h3>
+              <p class="text-center font-roboto text-gray33">
+                Moderate children at of outweigh it. Unsatiable it considered
+                invitation he travelling insensible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mb-[243px]">
+        <div class="layout-container">
+          <div class="flex items-start justify-between mb-[50px]">
+            <div class="max-w-[470px]">
+              <h2 class="text-[40px] font-semibold mb-4">
+                Best Real Estate Deals
+              </h2>
+              <p>
+                Colonel gravity get thought fat smiling add but. Wonder twenty
+                hunted and put income set desire expect.
+              </p>
+            </div>
+            <a href="#"
+              class="py-[22px] px-[33px] text-white bg-orangef8 text-[17px] shadow-orangef8 font-medium capitalize">View
+              All Property</a>
+          </div>
+          <div class="flex items-center gap-x-[54px] mb-11">
+            <div class="text-[19px] border-b border-orangef8 text-orangef8">
+              Commercial Property
+            </div>
+            <div class="text-[19px] border-b border-transparent">
+              Agriculture Property
+            </div>
+            <div class="text-[19px] border-b border-transparent">
+              Industrial Property
+            </div>
+            <div class="text-[19px] border-b border-transparent">
+              Residential Property
+            </div>
+          </div>
+          <div class="grid grid-cols-3 gap-x-[30px]">
+            <div class="relative">
+              <img src="./images/img3.jpeg" class="object-cover w-full h-full" alt="" />
+              <div class="absolute top-[14px] left-[14px] z-10 flex gap-x-[6px]">
+                <span
+                  class="inline-block px-3 py-2 text-white border border-white rounded-md bg-[rgba(0,0,0,0.4)]">Featured</span>
+                <span
+                  class="inline-block px-3 py-2 text-white border border-white rounded-md bg-[rgba(0,0,0,0.4)]">3D</span>
+              </div>
+            </div>
+            <div class="relative">
+              <img src="./images/img2.jpeg" class="object-cover w-full h-full" alt="" />
+              <div class="absolute top-[14px] left-[14px] z-10 flex gap-x-[6px]">
+                <span
+                  class="inline-block px-3 py-2 text-white border border-white rounded-md bg-[rgba(0,0,0,0.4)]">Featured</span>
+                <span
+                  class="inline-block px-3 py-2 text-white border border-white rounded-md bg-[rgba(0,0,0,0.4)]">3D</span>
+              </div>
+            </div>
+            <div class="relative">
+              <img src="./images/img1.jpeg" class="object-cover w-full h-full" alt="" />
+              <div class="absolute top-[14px] left-[14px] z-10 flex gap-x-[6px]">
+                <span
+                  class="inline-block px-3 py-2 text-white border border-white rounded-md bg-[rgba(0,0,0,0.4)]">Featured</span>
+                <span
+                  class="inline-block px-3 py-2 text-white border border-white rounded-md bg-[rgba(0,0,0,0.4)]">3D</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pb-[196px]">
+        <div class="layout-container">
+          <h2 class="text-[40px] font-semibold text-center mb-[95px]">
+            Featured Listing of the Week
+          </h2>
+          <div class="flex  p-10 bg-[#F1FFFF] justify-between gap-x-[77px]">
+            <div class="w-full relative max-w-[492px]">
+              <img src="./images/img-building.png" alt="" />
+              <img src="./images/img-office.png" class="absolute bottom-0 left-2/4 -translate-x-2/4" alt="" />
+            </div>
+            <div class="w-full max-w-[412px]">
+              <h3 class="text-[31px] font-semibold mb-7">
+                The and collecting for the motionless difficulty son.
+              </h3>
+              <p class="mb-11 text-[#545A58]">
+                Conveying or northward offending admitting perfectly my.
+                Colonel gravity get thought fat smiling add but difficult
+                situations.
+              </p>
+              <div class="flex items-start justify-between mb-[37px]">
+                <div class="flex flex-col text-[17px]">
+                  <span class="mb-3 font-bold">Budget</span>
+                  <span class="text-[#545A58]">Confidential</span>
+                </div>
+                <div class="flex flex-col text-[17px]">
+                  <span class="mb-3 font-bold">Size</span>
+                  <span class="text-[#545A58]">1200 m2</span>
+                </div>
+                <div class="flex flex-col text-[17px]">
+                  <span class="mb-3 font-bold">Type</span>
+                  <span class="text-[#545A58]">Office</span>
+                </div>
+              </div>
+              <div class="flex items-start justify-between mb-[54px]">
+                <div class="flex flex-col text-[17px]">
+                  <span class="mb-3 font-bold">Budget</span>
+                  <span class="text-[#545A58]">Confidential</span>
+                </div>
+                <div class="flex flex-col text-[17px]">
+                  <span class="mb-3 font-bold">Size</span>
+                  <span class="text-[#545A58]">1200 m2</span>
+                </div>
+                <div class="flex flex-col text-[17px]">
+                  <span class="mb-3 font-bold">Type</span>
+                  <span class="text-[#545A58]">Office</span>
+                </div>
+              </div>
+              <a href="#"
+                class="py-4 font-medium w-full block text-white uppercase rounded-md px-[38px] text-center text-[18px] bg-orangef8">YES!
+                I WANT BOOK “OFFICE PACKAGE”</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mb-[106px]">
+        <div class="layout-container">
+          <h2 class="font-semibold text-[40px] max-w-[570px] mb-[51px]">Loved by businesses, and individuals across the
+            globe.</h2>
+          <div class="grid grid-cols-3 gap-x-[30px]">
+            <div class="py-[35px] px-[38px] border border-[#EBEBEB] rounded-xl">
+              <div class="flex items-center mb-8 gap-x-1 text-[#FBB040]">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+              <p class="text-gray33 mb-[53px]">Moderate children at of outweigh it. Unsatiable it considered invitation
+                he travelling insensible. Consulted admitting oh mr up as described.</p>
+              <div class="flex items-center gap-x-5">
+                <img src="./images/avatar3.svg" class="w-12 h-12 " alt="">
+                <div class="flex-1">
+                  <h4 class="font-bold">Jane Cooper</h4>
+                  <span class="text-sm text-[#666666]">Los Angeles, CA</span>
+                </div>
+              </div>
+            </div>
+            <div class="py-[35px] px-[38px] border border-[#EBEBEB] rounded-xl">
+              <div class="flex items-center mb-8 gap-x-1 text-[#FBB040]">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+              <p class="text-gray33 mb-[53px] max-w-[270px]">The and collecting motionless difficulty son. His hearing staying ten colonel met. Sex drew six easy four dear cold</p>
+              <div class="flex items-center gap-x-5">
+                <img src="./images/avatar2.svg" class="w-12 h-12 " alt="">
+                <div class="flex-1">
+                  <h4 class="font-bold">Robert Fox</h4>
+                  <span class="text-sm text-[#666666]">New York City, NY</span>
+                </div>
+              </div>
+            </div>
+            <div class="py-[35px] px-[38px] border border-[#EBEBEB] rounded-xl">
+              <div class="flex items-center mb-8 gap-x-1 text-[#FBB040]">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+              <p class="text-gray33 mb-[53px]">Sociable on as carriage my position weddings raillery consider. Peculiar trifling absolute and wandered vicinity property yet.</p>
+              <div class="flex items-center gap-x-5">
+                <img src="./images/avatar1.svg" class="w-12 h-12 " alt="">
+                <div class="flex-1">
+                  <h4 class="font-bold">Leslie Alexander</h4>
+                  <span class="text-sm text-[#666666]">Buffalo, NJ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="layout-container">
+          <div class="flex items-center justify-between flex-1 ml-9 mr-9">
+            <div class="flex items-center gap-x-[80px] max-w-[672px]">
+              <img src="./images/airbnb-small.png" alt="" />
+              <img src="./images/cisco-small.png" alt="" />
+              <img src="./images/ebay-small.png" alt="" />
+              <img src="./images/uber-small.png" alt="" />
+              <img src="./images/microsoft-small.png" alt="" />
+            </div>
+              <p class="max-w-[311px] ">Give us a Call 1-888-111-2222 and we can set you up, or <a class="text-[#2CBDE7] underline " href="">check our pricing plans</a></p>
+          </div>
+
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#FBFCFC] pt-[162px]">
+      <div class="layout-container">
+        <h2 class="font-semibold text-center text-gray31 text-[45px] mb-3">Get Our Newsletter</h2>
+        <p class="text-2xl font-bold text-center text-gray31 mb-9">To join the worldwide community</p>
+        <div class="pb-[160px] mb-[60px] border-b border-[#DEDFE1]">
+          <div class="max-w-[686px] mx-auto shadow-white py-[26px] px-[30px] flex items-center">
+            <div class="flex flex-col flex-1 pr-[30px]">
+              <label for="email" class="block text-[17px] font-medium text-gray31 opacity-20 mb-3">Type your Email
+                Address</label>
+              <input type="text" placeholder="shakir260@gmail.com" value="shakir260@gmail.com"
+                class="text-xl font-bold text-black">
+            </div>
+            <button class="px-10 py-6 text-lg font-medium text-white font-dm bg-orangef8">Send Now</button>
+          </div>
+        </div>
+        <div class="flex items-center justify-between mb-[69px]">
+          <a href="index.html" class="font-extrabold text-[23px]">SmartSpace</a>
+          <ul class="flex items-center gap-x-[46px] font-dm text-[13px]">
+            <li><a href="#" class="font-bold text-black border-0 border-b-2 border-black">Home</a></li>
+            <li><a href="#" class="font-bold text-black">About</a></li>
+            <li><a href="#" class="font-bold text-black">Service</a></li>
+            <li><a href="#" class="font-bold text-black">Portfolio</a></li>
+            <li><a href="#" class="font-bold text-black">Blog</a></li>
+            <li><a href="#" class="font-bold text-black">Contact</a></li>
+          </ul>
+        </div>
+        <div class="text-xs font-bold text-center pb-9 ">Copyright © 2021 AR Shakir . All Rights Reseved.</div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+
+</html>

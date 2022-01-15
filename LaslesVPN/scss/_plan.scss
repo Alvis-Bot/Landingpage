@@ -1,0 +1,64 @@
+.plan{
+    padding: 80px 0 30px;
+    background-color: $gray-light-color;
+    &-header{
+        max-width: 555px;
+        margin: 0 auto 60px;
+        text-align: center;
+    }
+    &-main{
+        display: grid;
+        grid-template-columns: repeat(3 ,  1fr);
+        gap: 50px;
+    }
+    &-card{
+        background: #FFFFFF;
+        border: 2px solid #DDDDDD;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 80px 50px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+    &-image img{
+        margin: 0 auto 30px;
+    }
+    &-title{
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    &-list{
+        list-style: none;
+        margin-bottom: 50px;
+    }
+    &-item{
+        line-height: calc(30 / 14);
+        display: flex;
+        gap: 0 20px;
+        font-weight: 400;
+        font-size: 14px;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    &-price{
+        margin-top: auto;
+        font-size: 25px;
+        margin-bottom: 30px;
+        font-weight: 500;
+
+    }
+    &-card.is-active,
+    &-card:hover{
+        transition: 0.35s linear;
+        border-color: $primary-color;
+        .button{
+            background-color: $primary-color;
+            color: white;
+            transition: 0.35s linear;
+        }
+    }
+}

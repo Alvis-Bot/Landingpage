@@ -1,0 +1,29 @@
+.feature{
+    padding-bottom: 130px;
+    &-container{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 0 169px;
+
+    }
+    &-heading{
+        max-width: 383.41px;
+    }
+    &-text{
+        max-width: 427.88px;
+        margin-bottom: 20px;
+    }
+    &-list{
+        list-style: none;
+    }
+    &-item{
+        gap: 0 10px;
+        margin-bottom: 18px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+}

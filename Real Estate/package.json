@@ -1,0 +1,29 @@
+{
+  "name": "real-estate-landingpage_tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.13",
+    "vite": "^2.7.10"
+  },
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VentiKT12547/Real-Estate-Landingpage-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VentiKT12547/Real-Estate-Landingpage-/issues"
+  },
+  "homepage": "https://github.com/VentiKT12547/Real-Estate-Landingpage-#readme",
+  "dependencies": {
+    "tailwind-init": "^0.1.8"
+  }
+}

@@ -1,0 +1,19 @@
+.customer{
+    &-header{
+        max-width: 477px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+    }
+    &-list{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        gap: 0 50px;
+
+    }
+    &-item{
+        border: 2px solid #DDDDDD;
+        border-radius: 10px;
+    }
+
+}

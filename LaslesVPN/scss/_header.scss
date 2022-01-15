@@ -1,0 +1,44 @@
+.header{
+    padding-bottom: 90px;
+    padding-top: 50px;
+    &-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-auth{
+        column-gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+
+
+    }
+    &-signin{
+        font-weight: 500;
+        color: $heading-color;
+
+    }
+    &-signup:hover{
+        background-color: $primary-color;
+        color: white;
+        transition: 0.35s linear;
+
+    }
+
+}
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+  /*   &-item + .menu-item{
+        margin-left: 40px;
+    } */
+    &-link{
+        color: inherit;
+    }
+
+
+}
